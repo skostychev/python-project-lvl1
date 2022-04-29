@@ -3,7 +3,6 @@
 from brain_games.cli import welcome_user
 
 
-
 def greet(where):
     print('Welcome to the {}!'.format(where))
 
