@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 def welcome_user(name):
   
   while name == ' ':
