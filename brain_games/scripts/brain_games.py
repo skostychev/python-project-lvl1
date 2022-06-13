@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-from brain_games.cli import welcome_user
-
+from brain_even import is_even
 
 def greet(where):
     print('Welcome to the {}!'.format(where))
