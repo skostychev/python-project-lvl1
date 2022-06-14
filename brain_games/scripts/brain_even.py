@@ -18,7 +18,7 @@ def is_even():
                     break
                 else:
                     count = 0
-                    print(f"yes' is wrong answer. Correct answer was 'no'.\nLet's try again")
+                    print(f"yes' is wrong answer. Correct answer was 'no'.\nLet's try again {name}")
                     break
             elif answer == 'no':
                 if number % 2 == 1:
@@ -27,11 +27,11 @@ def is_even():
                     break
                 else:
                     count = 0
-                    print(f"yes' is wrong answer. Correct answer was 'no'.\nLet's try again ")
+                    print(f"yes' is wrong answer. Correct answer was 'no'.\nLet's try again {name}")
                     break
             else:
                 count = 0
-                print(f"You can write only 'yes' or 'mo'.\nLet's try again")
+                print(f"You can write only 'yes' or 'mo'.\nLet's try again {name}")
                 break
     print(f'Congratulations!')
 
