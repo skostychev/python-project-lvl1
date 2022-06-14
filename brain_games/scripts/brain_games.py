@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from brain_even import is_even
+from ..cli import welcome_user
 import prompt
 
 
