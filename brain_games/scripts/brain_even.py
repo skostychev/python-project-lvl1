@@ -1,6 +1,6 @@
-#!/usr/bin/env python
 from ..cli import welcome_user
 from random import randint
+import prompt
 
 
 def is_even():
@@ -18,7 +18,7 @@ def is_even():
                     break
                 else:
                     count = 0
-                    print(f"yes' is wrong answer. Correct answer was 'no'.\nLet's try again {name}")
+                    print(f"yes' is wrong answer. Correct answer was 'no'.\nLet's try again")
                     break
             elif answer == 'no':
                 if number % 2 == 1:
@@ -27,11 +27,11 @@ def is_even():
                     break
                 else:
                     count = 0
-                    print(f"yes' is wrong answer. Correct answer was 'no'.\nLet's try again {name}")
+                    print(f"yes' is wrong answer. Correct answer was 'no'.\nLet's try again ")
                     break
             else:
                 count = 0
-                print(f"You can write only 'yes' or 'mo'.\nLet's try again {name}")
+                print(f"You can write only 'yes' or 'mo'.\nLet's try again")
                 break
     print(f'Congratulations!')
 
